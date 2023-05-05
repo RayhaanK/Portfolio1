@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.background {
+    background-color: #212529;
+    height: 645px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin-top: 40px;
+}
+
+
+.card-body {
+    background-color: darkgray;
+}
+
+
+.mainh {
+    position: relative;
+    top: 40px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.column img {
+    display: grid;
+    position: relative;
+    left: 300px;
+    top: 50px;
+    height: 350px;
+    border: 2px solid black;
+}
+
+.column p {
+    display: grid;
+    position: relative;
+    color: white;
+    bottom: 170px ;
+    left: 620px;
+    max-width: 700px;
+    border: 2px solid black;
+}
+
+
+.about {
+    height: 300px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
